@@ -26,4 +26,7 @@
 }
 
 
+- (IBAction)HelloButton:(id)sender {
+    self.Label.text = @"Hello World";
+}
 @end
